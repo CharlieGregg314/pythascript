@@ -9,9 +9,9 @@ javascript a bit more bareable:D`,"background:#192; color: #efe; font-size:32pt;
  */;function spread_for(value,f){value.forEach(v=>{spread_call(v,f)})}
 /**
  * Spreads areguments over a function if it accepts multiple.
- * @param {Any} value value to call with
+ * @param {*} value value to call with
  * @param {Function} f function to attempt to spread over
- * @returns {Any} returns the same value as f
+ * @returns {*} returns the same value as f
  */function spread_call(value,f){
 // arguments > 1
 if(f.length>1){return f(...value)}else{return f(value)}}_PYTHASCRIPT_MODULES.add("spread.js")
